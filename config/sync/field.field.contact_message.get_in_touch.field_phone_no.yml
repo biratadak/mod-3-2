@@ -1,0 +1,23 @@
+uuid: 114ba683-94bd-45ed-b476-37cdf01096d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.get_in_touch
+    - field.storage.contact_message.field_phone_no
+id: contact_message.get_in_touch.field_phone_no
+field_name: field_phone_no
+entity_type: contact_message
+bundle: get_in_touch
+label: 'Phone No'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 6000000000
+  max: 9999999999
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,29 @@
+uuid: 98d96300-f7df-4a92-9f81-7e02b440ce33
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.get_in_touch
+    - field.storage.contact_message.field_state
+    - taxonomy.vocabulary.state
+id: contact_message.get_in_touch.field_state
+field_name: field_state
+entity_type: contact_message
+bundle: get_in_touch
+label: State
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      state: state
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

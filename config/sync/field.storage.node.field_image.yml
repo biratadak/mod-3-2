@@ -1,4 +1,4 @@
-uuid: dbd37ebf-1358-459e-af78-8b732dbe45e9
+uuid: f54abafc-9dc3-460a-8cf2-9eade9be9f85
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,6 @@ dependencies:
     - file
     - image
     - node
-_core:
-  default_config_hash: EymokncRIZ7SgQT2IdOQhQJicX4nNc0K89ik-LxmOHE
 id: node.field_image
 field_name: field_image
 entity_type: node
@@ -18,17 +16,15 @@ settings:
   display_default: false
   uri_scheme: public
   default_image:
-    uuid: null
-    alt: ''
+    uuid: 90f732f3-82df-4935-8e97-12fc7413ddfe
+    alt: 'Not Found'
     title: ''
-    width: null
-    height: null
+    width: 512
+    height: 512
 module: image
 locked: false
-cardinality: 1
+cardinality: -1
 translatable: true
-indexes:
-  target_id:
-    - target_id
+indexes: {  }
 persist_with_no_fields: false
 custom_storage: false

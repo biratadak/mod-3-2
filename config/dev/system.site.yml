@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 2ef5c3a4-4502-497c-8b86-150c7ad34a7e
+name: 'Innoraft Employee Management Portal'
+mail: adakveer@gmail.com
+slogan: ''
+page:
+  403: /node/2
+  404: /node/1
+  front: /node/3
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

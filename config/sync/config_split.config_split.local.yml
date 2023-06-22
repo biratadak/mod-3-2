@@ -1,0 +1,19 @@
+uuid: 9cb164ab-9df1-4131-8990-6387b0701cb7
+langcode: en
+status: false
+dependencies: {  }
+id: local
+label: local
+description: "- Please create two different configuration splits\r\n- Local Split ( This will have the following modules & configuration in it ) - Modules\r\n- Devel\r\n- Views UI\r\n- Webform UI\r\n- Configuration\r\n- System Site configuration where the site name is `Local\r\nEmployee Management Portal`"
+weight: 0
+folder: ../config/local
+module:
+  devel: 0
+  views_ui: 0
+  webform_ui: 0
+theme: {  }
+blacklist:
+  - system.site
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
