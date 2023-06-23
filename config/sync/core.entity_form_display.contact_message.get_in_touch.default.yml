@@ -1,0 +1,116 @@
+uuid: 7dee1fc1-313e-44da-bf46-7744553fdd6f
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.get_in_touch
+    - field.field.contact_message.get_in_touch.field_city
+    - field.field.contact_message.get_in_touch.field_e_mail
+    - field.field.contact_message.get_in_touch.field_first_name
+    - field.field.contact_message.get_in_touch.field_last_name
+    - field.field.contact_message.get_in_touch.field_message
+    - field.field.contact_message.get_in_touch.field_phone_no
+    - field.field.contact_message.get_in_touch.field_state
+  module:
+    - text
+id: contact_message.get_in_touch.default
+targetEntityType: contact_message
+bundle: get_in_touch
+mode: default
+content:
+  copy:
+    weight: 50
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_city:
+    type: string_textfield
+    weight: 55
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_mail:
+    type: email_default
+    weight: 53
+    region: content
+    settings:
+      placeholder: ''
+      size: 60
+    third_party_settings: {  }
+  field_first_name:
+    type: string_textfield
+    weight: 51
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_last_name:
+    type: string_textfield
+    weight: 52
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_message:
+    type: text_textarea_with_summary
+    weight: 57
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_phone_no:
+    type: number
+    weight: 54
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_state:
+    type: entity_reference_autocomplete
+    weight: 56
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  mail:
+    weight: -40
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  message:
+    type: string_textarea
+    weight: 0
+    region: content
+    settings:
+      rows: 12
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    weight: -50
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  preview:
+    weight: 40
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  subject:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

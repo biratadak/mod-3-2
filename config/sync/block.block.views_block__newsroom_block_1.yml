@@ -1,0 +1,29 @@
+uuid: f4322a56-80d2-457a-8260-55ec089a3ca9
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.newsroom
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: views_block__newsroom_block_1
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:newsroom-block_1'
+settings:
+  id: 'views_block:newsroom-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /Newsroom

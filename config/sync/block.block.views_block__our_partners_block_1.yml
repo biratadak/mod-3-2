@@ -1,0 +1,29 @@
+uuid: ed1eeb99-7bf9-47d5-a800-2ec7dcf5d47e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.our_partners
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: views_block__our_partners_block_1
+theme: olivero
+region: content_below
+weight: 0
+provider: null
+plugin: 'views_block:our_partners-block_1'
+settings:
+  id: 'views_block:our_partners-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /about

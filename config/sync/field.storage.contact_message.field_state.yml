@@ -1,0 +1,20 @@
+uuid: d1eaf164-8a34-4ffe-a848-c052f780d76e
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+    - taxonomy
+id: contact_message.field_state
+field_name: field_state
+entity_type: contact_message
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

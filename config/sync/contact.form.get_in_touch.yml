@@ -1,0 +1,12 @@
+uuid: dedc16eb-57b7-44fd-bc26-2389fce0d6a3
+langcode: en
+status: true
+dependencies: {  }
+id: get_in_touch
+label: 'Get In Touch'
+recipients:
+  - adakveer@gmail.com
+reply: ''
+weight: 0
+message: 'Thanks for contacting Us'
+redirect: /home

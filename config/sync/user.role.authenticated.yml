@@ -4,9 +4,11 @@ status: true
 dependencies:
   config:
     - filter.format.basic_html
+    - filter.format.webform_default
   module:
     - comment
     - contact
+    - entityqueue
     - filter
     - search
     - shortcut
@@ -25,4 +27,6 @@ permissions:
   - 'post comments'
   - 'search content'
   - 'skip comment approval'
+  - 'update my_products entityqueue'
   - 'use text format basic_html'
+  - 'use text format webform_default'

@@ -1,0 +1,51 @@
+uuid: 4edc064d-02ad-4ebe-be4d-ba42aaa38289
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_features
+field_name: field_features
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Feature 1'
+      label: 'Feature 1'
+    -
+      value: 'Feature 2'
+      label: 'Feature 2'
+    -
+      value: 'Feature 3'
+      label: 'Feature 3'
+    -
+      value: 'Feature 4'
+      label: 'Feature 4'
+    -
+      value: 'Feature 5'
+      label: 'Feature 5'
+    -
+      value: 'Feature 6'
+      label: 'Feature 6'
+    -
+      value: 'Feature 7'
+      label: 'Feature 7'
+    -
+      value: 'Feature 8'
+      label: 'Feature 8'
+    -
+      value: 'Feature 9'
+      label: 'Feature 9'
+    -
+      value: 'Feature 10'
+      label: 'Feature 10'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: 9b983741-5650-4359-b68a-ce2db127dcf2
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.get_in_touch
+    - field.storage.contact_message.field_message
+  module:
+    - text
+id: contact_message.get_in_touch.field_message
+field_name: field_message
+entity_type: contact_message
+bundle: get_in_touch
+label: Message
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary
