@@ -1,0 +1,34 @@
+uuid: 48d2dd24-40b4-4ea5-bf5b-61c5ae40cf90
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_product_images
+    - node.type.product
+    - paragraphs.paragraphs_type.banner
+  module:
+    - entity_reference_revisions
+id: node.product.field_product_images
+field_name: field_product_images
+entity_type: node
+bundle: product
+label: 'Product Images'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      banner: banner
+    negate: 0
+    target_bundles_drag_drop:
+      banner:
+        weight: 3
+        enabled: true
+      features:
+        weight: 4
+        enabled: false
+field_type: entity_reference_revisions

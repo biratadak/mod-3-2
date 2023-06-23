@@ -7,7 +7,8 @@ dependencies:
     - field.field.node.product.body
     - field.field.node.product.field_catagory
     - field.field.node.product.field_features
-    - field.field.node.product.field_product_ima
+    - field.field.node.product.field_gallery
+    - field.field.node.product.field_product_images
     - node.type.product
   module:
     - text
@@ -33,4 +34,5 @@ content:
 hidden:
   field_catagory: true
   field_features: true
-  field_product_ima: true
+  field_gallery: true
+  field_product_images: true

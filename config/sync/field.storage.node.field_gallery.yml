@@ -1,4 +1,4 @@
-uuid: e67d88d1-79eb-40b2-ab45-9573d991c8f5
+uuid: 6d142cfc-8810-4638-acfb-c66af941e19b
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     - file
     - image
     - node
-id: node.field_product_ima
-field_name: field_product_ima
+id: node.field_gallery
+field_name: field_gallery
 entity_type: node
 type: image
 settings:
@@ -16,11 +16,11 @@ settings:
   display_default: false
   uri_scheme: public
   default_image:
-    uuid: cb49f738-ca14-4d5b-83fd-23330252989e
+    uuid: ''
     alt: ''
     title: ''
-    width: 640
-    height: 640
+    width: null
+    height: null
 module: image
 locked: false
 cardinality: -1

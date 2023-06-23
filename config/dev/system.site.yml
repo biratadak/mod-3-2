@@ -2,7 +2,7 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
 uuid: 2ef5c3a4-4502-497c-8b86-150c7ad34a7e
-name: 'Innoraft Employee Management Portal'
+name: 'Innoraft Employee Management Portal dev'
 mail: adakveer@gmail.com
 slogan: ''
 page:

@@ -1,19 +1,19 @@
-uuid: 6afd9ecd-2697-4ffe-a31c-cd5327af6e11
+uuid: 1cf3f48f-648f-49f9-aca4-6d3cdb54c005
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_product_ima
+    - field.storage.node.field_gallery
     - node.type.product
   module:
     - image
-id: node.product.field_product_ima
-field_name: field_product_ima
+id: node.product.field_gallery
+field_name: field_gallery
 entity_type: node
 bundle: product
-label: 'Product Images'
+label: Gallery
 description: ''
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
@@ -22,7 +22,7 @@ settings:
   handler_settings: {  }
   file_directory: '[date:custom:Y]-[date:custom:m]'
   file_extensions: 'png gif jpg jpeg'
-  max_filesize: 5Mb
+  max_filesize: 5MB
   max_resolution: ''
   min_resolution: ''
   alt_field: true

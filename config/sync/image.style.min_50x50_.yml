@@ -1,0 +1,14 @@
+uuid: 5689b38b-dd74-4e7e-b567-46d5e8b2260c
+langcode: en
+status: true
+dependencies: {  }
+name: min_50x50_
+label: 'min (50x50)'
+effects:
+  1a3e496f-2114-47d0-80ab-7506a7350c0a:
+    uuid: 1a3e496f-2114-47d0-80ab-7506a7350c0a
+    id: image_resize
+    weight: 1
+    data:
+      width: 50
+      height: 50

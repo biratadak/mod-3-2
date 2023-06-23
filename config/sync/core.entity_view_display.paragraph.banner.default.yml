@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.paragraph.banner.field_image
     - field.field.paragraph.banner.field_link
+    - image.style.wide
     - paragraphs.paragraphs_type.banner
   module:
     - image
@@ -19,7 +20,7 @@ content:
     label: above
     settings:
       image_link: ''
-      image_style: ''
+      image_style: wide
       image_loading:
         attribute: lazy
     third_party_settings: {  }
